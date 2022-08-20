@@ -3,7 +3,7 @@
  */
 
  const { default: test } = require("node:test");
-const { game, newGame, showScore, addTurn } = require("../game");
+const { game, newGame, showScore, addTurn, lightsOn } = require("../game");
 
 
  beforeAll(() => {
